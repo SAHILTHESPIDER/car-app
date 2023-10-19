@@ -1,7 +1,7 @@
 import{ createstore,applyMiddleware,combineReducers} from 'redux';
 import{ composewithDevTools} from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
-import { carsReducer } from './reducers/carsReducer';
+
 
 
 const initialData=
